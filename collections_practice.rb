@@ -13,14 +13,24 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  array.sort do |a, b|
-    array[1] = b
-    array[2] = a
+  (0..array.length - 1).each do |i|
+    if array[i] == array[1]
+      array[i + 1] == array[i]
+      array
   end
 end
 
 def reverse_array(array)
   array.reverse
+end
+
+def kesha_maker(array)
+  answer = []
+  array.each do |string|
+    string[2] = "$"
+    answer << string
+  end
+  answer
 end
 
 
