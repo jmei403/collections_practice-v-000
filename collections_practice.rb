@@ -3,3 +3,5 @@ def reverse_array(array)
     b <=> a
   end
 end
+
+reverse_array([3,4,5,6])
