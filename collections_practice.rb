@@ -7,8 +7,7 @@ def sort_array_desc(array)
 end
 
 def reverse_array(array)
-  array.sort do |a, b|
-    b <=> a
+  array.reverse
   end
 end
 
