@@ -41,8 +41,7 @@ end
 def add_s(array)
   answer = []
   array.each_with_index do |ele, i|
-    ele + "s" if i != 1
-    answer << ele
+    i == 1 ? answer << ele : answer << ele + "s"
   end
   answer
 end
