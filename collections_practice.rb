@@ -1,7 +1,17 @@
+def sort_array_asc(array)
+  array.sort
+end
+
 def reverse_array(array)
   array.sort do |a, b|
     b <=> a
   end
 end
 
-reverse_array([3,4,5,6])
+def kesha_maker(array)
+  array.each_with_index do |word, i|
+    
+    
+end
+
+p reverse_array([3,4,5,6])
