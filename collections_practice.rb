@@ -2,10 +2,9 @@ def sort_array_asc(array)
   array.sort
 end
 
-# def sort_array_desc(array)
-#   array.sort do |a, b|
-#
-# end
+def sort_array_desc(array)
+  array.sort.reverse
+end
 
 def reverse_array(array)
   array.sort do |a, b|
