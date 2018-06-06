@@ -12,10 +12,17 @@ def sort_array_char_count(array)
   end
 end
 
-# def swap_elements(array)
-#   array.sort do |a, b|
-#
-# end
+def swap_elements(array)
+  array.map.with_index do |ele, i|
+    if i == 1
+      ele == array[i + 1]
+      array[i + 1] == ele
+    end
+  end
+end
+    
+    
+end
 
 def reverse_array(array)
   array.reverse
