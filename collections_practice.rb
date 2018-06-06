@@ -36,7 +36,7 @@ end
 
 def sum_array(array)
   array.inject(:+)
-end 
+end
 
 def add_s(array)
   answer = []
